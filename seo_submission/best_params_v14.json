@@ -1,0 +1,61 @@
+{
+  "v13_params": {
+    "v12_params": {
+      "v11_params": {
+        "v7_params": {
+          "base_alpha": 0.5,
+          "feature": "flatness",
+          "slope": -0.25,
+          "center": 0.005587442881741527,
+          "scale": 0.0237239410412561,
+          "wiener_params": {
+            "noise_percentile": 20.0,
+            "strength": 2.6,
+            "gain_floor": 0.16,
+            "temporal_smoothing": 0.5
+          },
+          "logmmse_params": {
+            "method": "logmmse",
+            "noise_percentile": 20.0,
+            "strength": 2.6,
+            "gain_floor": 0.16,
+            "temporal_smoothing": 0.5,
+            "adaptive_mix": 0.35,
+            "noise_window": 25,
+            "prior_alpha": 0.96,
+            "freq_sigma": 0.0
+          }
+        },
+        "mix": 1.0,
+        "noise_percentile": 20.0,
+        "window_frames": 51,
+        "correction_strength": 1.5,
+        "gain_floor": 0.65,
+        "freq_smoothing": 1.0
+      },
+      "mix": 1.0,
+      "low_energy_fraction": 0.3,
+      "static_weight": 0.5,
+      "correction_strength": 1.0,
+      "gain_floor": 0.85,
+      "freq_smoothing": 1.0
+    },
+    "mix": 0.8,
+    "frame_size": 1024,
+    "correction_strength": 1.0,
+    "gain_floor": 0.85,
+    "low_energy_fraction": 0.2,
+    "freq_sigma": 1.0
+  },
+  "low_recovery": 0.0,
+  "mid_recovery": 0.0,
+  "high_recovery": 0.0,
+  "low_suppression": 0.22,
+  "mid_suppression": 0.0,
+  "high_suppression": 0.0,
+  "frame_size": 512,
+  "low_cut_hz": 500.0,
+  "high_cut_hz": 2800.0,
+  "transition_hz": 150.0,
+  "min_gain": 0.8
+}

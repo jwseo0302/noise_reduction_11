@@ -1,0 +1,16 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+# Local input and generated audio
+output_*/
+validation_enhanced*/
+# Original dataset
+train/
+validation/
+dataset/
+# Local experiment backups
+snapshots/
+backups/
+.vscode/
+

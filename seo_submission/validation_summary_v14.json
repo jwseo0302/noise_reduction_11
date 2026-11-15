@@ -1,0 +1,350 @@
+{
+  "overall": {
+    "count": 164,
+    "noisy_pesq_wb": 1.39467,
+    "enhanced_pesq_wb": 1.71281,
+    "pesq_delta": 0.31814,
+    "noisy_snr_db": 9.63415,
+    "enhanced_snr_db": 9.97058,
+    "snr_delta_db": 0.33644
+  },
+  "params": {
+    "v13_params": {
+      "v12_params": {
+        "v11_params": {
+          "v7_params": {
+            "base_alpha": 0.5,
+            "feature": "flatness",
+            "slope": -0.25,
+            "center": 0.005587442881741527,
+            "scale": 0.0237239410412561,
+            "wiener_params": {
+              "noise_percentile": 20.0,
+              "strength": 2.6,
+              "gain_floor": 0.16,
+              "temporal_smoothing": 0.5
+            },
+            "logmmse_params": {
+              "method": "logmmse",
+              "noise_percentile": 20.0,
+              "strength": 2.6,
+              "gain_floor": 0.16,
+              "temporal_smoothing": 0.5,
+              "adaptive_mix": 0.35,
+              "noise_window": 25,
+              "prior_alpha": 0.96,
+              "freq_sigma": 0.0
+            }
+          },
+          "mix": 1.0,
+          "noise_percentile": 20.0,
+          "window_frames": 51,
+          "correction_strength": 1.5,
+          "gain_floor": 0.65,
+          "freq_smoothing": 1.0
+        },
+        "mix": 1.0,
+        "low_energy_fraction": 0.3,
+        "static_weight": 0.5,
+        "correction_strength": 1.0,
+        "gain_floor": 0.85,
+        "freq_smoothing": 1.0
+      },
+      "mix": 0.8,
+      "frame_size": 1024,
+      "correction_strength": 1.0,
+      "gain_floor": 0.85,
+      "low_energy_fraction": 0.2,
+      "freq_sigma": 1.0
+    },
+    "low_recovery": 0.0,
+    "mid_recovery": 0.0,
+    "high_recovery": 0.0,
+    "low_suppression": 0.22,
+    "mid_suppression": 0.0,
+    "high_suppression": 0.0,
+    "frame_size": 512,
+    "low_cut_hz": 500.0,
+    "high_cut_hz": 2800.0,
+    "transition_hz": 150.0,
+    "min_gain": 0.8
+  },
+  "groups": {
+    "noise_category": {
+      "aircraft_cockpit": {
+        "count": 14,
+        "noisy_pesq_wb": 1.1731,
+        "enhanced_pesq_wb": 1.60383,
+        "pesq_delta": 0.43073,
+        "noisy_snr_db": 9.64286,
+        "enhanced_snr_db": 9.61948,
+        "snr_delta_db": -0.02339
+      },
+      "alarm_siren": {
+        "count": 23,
+        "noisy_pesq_wb": 1.31059,
+        "enhanced_pesq_wb": 1.41772,
+        "pesq_delta": 0.10713,
+        "noisy_snr_db": 8.04348,
+        "enhanced_snr_db": 9.9342,
+        "snr_delta_db": 1.89073
+      },
+      "animal": {
+        "count": 2,
+        "noisy_pesq_wb": 1.423,
+        "enhanced_pesq_wb": 1.5562,
+        "pesq_delta": 0.1332,
+        "noisy_snr_db": 12.49999,
+        "enhanced_snr_db": 13.87634,
+        "snr_delta_db": 1.37635
+      },
+      "bell": {
+        "count": 3,
+        "noisy_pesq_wb": 1.67535,
+        "enhanced_pesq_wb": 1.6168,
+        "pesq_delta": -0.05855,
+        "noisy_snr_db": 13.33331,
+        "enhanced_snr_db": 12.78474,
+        "snr_delta_db": -0.54857
+      },
+      "broadband_noise": {
+        "count": 10,
+        "noisy_pesq_wb": 1.11526,
+        "enhanced_pesq_wb": 1.42881,
+        "pesq_delta": 0.31355,
+        "noisy_snr_db": 7.5,
+        "enhanced_snr_db": 9.5117,
+        "snr_delta_db": 2.0117
+      },
+      "clap": {
+        "count": 1,
+        "noisy_pesq_wb": 1.37765,
+        "enhanced_pesq_wb": 1.36151,
+        "pesq_delta": -0.01614,
+        "noisy_snr_db": 14.99998,
+        "enhanced_snr_db": 13.04445,
+        "snr_delta_db": -1.95553
+      },
+      "click": {
+        "count": 1,
+        "noisy_pesq_wb": 2.12883,
+        "enhanced_pesq_wb": 2.05904,
+        "pesq_delta": -0.06979,
+        "noisy_snr_db": 14.99998,
+        "enhanced_snr_db": 11.06348,
+        "snr_delta_db": -3.9365
+      },
+      "destroyer_engine": {
+        "count": 5,
+        "noisy_pesq_wb": 1.24793,
+        "enhanced_pesq_wb": 1.48117,
+        "pesq_delta": 0.23323,
+        "noisy_snr_db": 8.0,
+        "enhanced_snr_db": 9.85826,
+        "snr_delta_db": 1.85827
+      },
+      "destroyer_operations": {
+        "count": 5,
+        "noisy_pesq_wb": 1.28587,
+        "enhanced_pesq_wb": 1.7483,
+        "pesq_delta": 0.46242,
+        "noisy_snr_db": 9.0,
+        "enhanced_snr_db": 7.9482,
+        "snr_delta_db": -1.05179
+      },
+      "door_moving": {
+        "count": 1,
+        "noisy_pesq_wb": 1.77713,
+        "enhanced_pesq_wb": 1.89109,
+        "pesq_delta": 0.11395,
+        "noisy_snr_db": 15.00004,
+        "enhanced_snr_db": 12.42642,
+        "snr_delta_db": -2.57362
+      },
+      "factory": {
+        "count": 5,
+        "noisy_pesq_wb": 1.41332,
+        "enhanced_pesq_wb": 1.85961,
+        "pesq_delta": 0.4463,
+        "noisy_snr_db": 11.99999,
+        "enhanced_snr_db": 9.90434,
+        "snr_delta_db": -2.09565
+      },
+      "footsteps": {
+        "count": 1,
+        "noisy_pesq_wb": 1.21681,
+        "enhanced_pesq_wb": 1.22364,
+        "pesq_delta": 0.00684,
+        "noisy_snr_db": 9.99999,
+        "enhanced_snr_db": 9.95691,
+        "snr_delta_db": -0.04308
+      },
+      "hf_channel": {
+        "count": 4,
+        "noisy_pesq_wb": 1.14917,
+        "enhanced_pesq_wb": 1.33698,
+        "pesq_delta": 0.18782,
+        "noisy_snr_db": 6.25,
+        "enhanced_snr_db": 10.86399,
+        "snr_delta_db": 4.61399
+      },
+      "machine": {
+        "count": 34,
+        "noisy_pesq_wb": 1.41562,
+        "enhanced_pesq_wb": 1.73563,
+        "pesq_delta": 0.32001,
+        "noisy_snr_db": 10.29412,
+        "enhanced_snr_db": 10.02755,
+        "snr_delta_db": -0.26657
+      },
+      "machine_gun": {
+        "count": 1,
+        "noisy_pesq_wb": 2.08521,
+        "enhanced_pesq_wb": 2.13234,
+        "pesq_delta": 0.04712,
+        "noisy_snr_db": 9.99998,
+        "enhanced_snr_db": 10.25523,
+        "snr_delta_db": 0.25526
+      },
+      "military_vehicle": {
+        "count": 5,
+        "noisy_pesq_wb": 1.42109,
+        "enhanced_pesq_wb": 1.80482,
+        "pesq_delta": 0.38372,
+        "noisy_snr_db": 9.99999,
+        "enhanced_snr_db": 8.52311,
+        "snr_delta_db": -1.47688
+      },
+      "phone_dialing": {
+        "count": 4,
+        "noisy_pesq_wb": 2.08639,
+        "enhanced_pesq_wb": 3.24607,
+        "pesq_delta": 1.15968,
+        "noisy_snr_db": 12.49998,
+        "enhanced_snr_db": 12.02997,
+        "snr_delta_db": -0.47001
+      },
+      "shower": {
+        "count": 1,
+        "noisy_pesq_wb": 1.51326,
+        "enhanced_pesq_wb": 2.01446,
+        "pesq_delta": 0.50121,
+        "noisy_snr_db": 15.00002,
+        "enhanced_snr_db": 15.47071,
+        "snr_delta_db": 0.47069
+      },
+      "tooth_brushing": {
+        "count": 1,
+        "noisy_pesq_wb": 1.33563,
+        "enhanced_pesq_wb": 1.83476,
+        "pesq_delta": 0.49912,
+        "noisy_snr_db": 15.00006,
+        "enhanced_snr_db": 13.19494,
+        "snr_delta_db": -1.80512
+      },
+      "traffic_vehicle": {
+        "count": 9,
+        "noisy_pesq_wb": 1.52521,
+        "enhanced_pesq_wb": 1.81254,
+        "pesq_delta": 0.28732,
+        "noisy_snr_db": 11.66666,
+        "enhanced_snr_db": 10.90959,
+        "snr_delta_db": -0.75707
+      },
+      "vehicle_interior": {
+        "count": 3,
+        "noisy_pesq_wb": 1.86122,
+        "enhanced_pesq_wb": 2.5294,
+        "pesq_delta": 0.66819,
+        "noisy_snr_db": 5.0,
+        "enhanced_snr_db": 10.0747,
+        "snr_delta_db": 5.0747
+      },
+      "water": {
+        "count": 5,
+        "noisy_pesq_wb": 1.23174,
+        "enhanced_pesq_wb": 1.40751,
+        "pesq_delta": 0.17577,
+        "noisy_snr_db": 15.00001,
+        "enhanced_snr_db": 11.20071,
+        "snr_delta_db": -3.7993
+      },
+      "wind": {
+        "count": 26,
+        "noisy_pesq_wb": 1.4737,
+        "enhanced_pesq_wb": 1.85845,
+        "pesq_delta": 0.38475,
+        "noisy_snr_db": 8.07693,
+        "enhanced_snr_db": 8.7417,
+        "snr_delta_db": 0.66478
+      }
+    },
+    "noise_difficulty": {
+      "easy": {
+        "count": 99,
+        "noisy_pesq_wb": 1.31115,
+        "enhanced_pesq_wb": 1.65352,
+        "pesq_delta": 0.34236,
+        "noisy_snr_db": 8.23232,
+        "enhanced_snr_db": 9.34145,
+        "snr_delta_db": 1.10913
+      },
+      "hard": {
+        "count": 24,
+        "noisy_pesq_wb": 1.53169,
+        "enhanced_pesq_wb": 1.66792,
+        "pesq_delta": 0.13623,
+        "noisy_snr_db": 13.33333,
+        "enhanced_snr_db": 11.99987,
+        "snr_delta_db": -1.33346
+      },
+      "moderate": {
+        "count": 41,
+        "noisy_pesq_wb": 1.51613,
+        "enhanced_pesq_wb": 1.88224,
+        "pesq_delta": 0.36611,
+        "noisy_snr_db": 10.85365,
+        "enhanced_snr_db": 10.30184,
+        "snr_delta_db": -0.55182
+      }
+    },
+    "target_snr_db": {
+      "0.0": {
+        "count": 15,
+        "noisy_pesq_wb": 1.07961,
+        "enhanced_pesq_wb": 1.18603,
+        "pesq_delta": 0.10643,
+        "noisy_snr_db": -0.0,
+        "enhanced_snr_db": 4.74448,
+        "snr_delta_db": 4.74448
+      },
+      "10.0": {
+        "count": 55,
+        "noisy_pesq_wb": 1.3575,
+        "enhanced_pesq_wb": 1.64483,
+        "pesq_delta": 0.28732,
+        "noisy_snr_db": 10.0,
+        "enhanced_snr_db": 10.3942,
+        "snr_delta_db": 0.3942
+      },
+      "15.0": {
+        "count": 56,
+        "noisy_pesq_wb": 1.63538,
+        "enhanced_pesq_wb": 2.11799,
+        "pesq_delta": 0.48261,
+        "noisy_snr_db": 15.0,
+        "enhanced_snr_db": 12.2916,
+        "snr_delta_db": -2.7084
+      },
+      "5.0": {
+        "count": 38,
+        "noisy_pesq_wb": 1.21811,
+        "enhanced_pesq_wb": 1.42203,
+        "pesq_delta": 0.20392,
+        "noisy_snr_db": 5.0,
+        "enhanced_snr_db": 7.99994,
+        "snr_delta_db": 2.99994
+      }
+    }
+  }
+}
