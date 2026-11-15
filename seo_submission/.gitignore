@@ -3,8 +3,6 @@
 __pycache__/
 *.pyc
 # Local input and generated audio
-input/
-output/
 output_*/
 validation_enhanced*/
 # Original dataset
@@ -15,3 +13,4 @@ dataset/
 snapshots/
 backups/
 .vscode/
+
